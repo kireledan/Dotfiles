@@ -3,18 +3,30 @@ config:
   create: true
   dotpath: dotfiles
 dotfiles:
+  d_kwm:
+    dst: ~/.kwm
+    src: kwm
   d_widgets:
     dst: "~/Library/Application Support/\xDCbersicht/widgets"
     src: "Library/Application Support/\xDCbersicht/widgets"
   d_zprezto:
     dst: ~/.zprezto
     src: zprezto
+  f_chunkwmrc:
+    dst: ~/.chunkwmrc
+    src: chunkwmrc
   f_com.googlecode.iterm2.plist:
     dst: ~/Library/Preferences/com.googlecode.iterm2.plist
     src: Library/Preferences/com.googlecode.iterm2.plist
+  f_skhdrc:
+    dst: ~/.skhdrc
+    src: skhdrc
 profiles:
   Eriks-MacBook-Pro.local:
     dotfiles:
     - d_zprezto
     - d_widgets
     - f_com.googlecode.iterm2.plist
+    - d_kwm
+    - f_chunkwmrc
+    - f_skhdrc
