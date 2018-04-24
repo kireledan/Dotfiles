@@ -21,6 +21,9 @@ dotfiles:
   f_skhdrc:
     dst: ~/.skhdrc
     src: skhdrc
+  f_zpreztorc:
+    dst: ~/.zpreztorc
+    src: zpreztorc
 profiles:
   Eriks-MacBook-Pro.local:
     dotfiles:
@@ -30,3 +33,4 @@ profiles:
     - d_kwm
     - f_chunkwmrc
     - f_skhdrc
+    - f_zpreztorc
