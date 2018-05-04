@@ -9,9 +9,6 @@ dotfiles:
   d_widgets:
     dst: "~/Library/Application Support/\xDCbersicht/widgets"
     src: "Library/Application Support/\xDCbersicht/widgets"
-  d_zprezto:
-    dst: ~/.zprezto
-    src: zprezto
   f_chunkwmrc:
     dst: ~/.chunkwmrc
     src: chunkwmrc
@@ -27,7 +24,14 @@ dotfiles:
 profiles:
   Eriks-MacBook-Pro.local:
     dotfiles:
-    - d_zprezto
+    - d_widgets
+    - f_com.googlecode.iterm2.plist
+    - d_kwm
+    - f_chunkwmrc
+    - f_skhdrc
+    - f_zpreztorc
+  ITs-MacBook-Pro-8.local:
+    dotfiles:
     - d_widgets
     - f_com.googlecode.iterm2.plist
     - d_kwm
