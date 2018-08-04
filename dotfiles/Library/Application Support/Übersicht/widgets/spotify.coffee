@@ -61,7 +61,7 @@ update: (output, domEl) ->
 
 
 
-   mpdHtmlString += "<span>"
+   mpdHtmlString += "<span class='purple'>"
    i = 0
    while i <= elapsedCounter
      i += 1

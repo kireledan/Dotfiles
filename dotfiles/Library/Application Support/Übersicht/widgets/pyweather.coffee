@@ -136,7 +136,7 @@ style: """
   .green
     color: #7bc275
   .yellow
-    color: #ecbe7b
+    color: #F2F27A
   .red
     color: #ff665c
 """

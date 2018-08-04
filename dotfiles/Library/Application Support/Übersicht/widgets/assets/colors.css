@@ -5,11 +5,11 @@ table, span {
     -webkit-font-smoothing: antialiased;
 }
 .white {
-    color: #f1ebe4;
+    color: #FFFFFF;
 }
 
 .black {
-  color: #292b2e;
+  color: #000000;
 }
 
 .background {
@@ -21,7 +21,7 @@ table, span {
 }
 
 .purple {
-    color: #5d4d7a;
+    color: #703FAF;
 }
 
 .orange {
@@ -33,11 +33,11 @@ table, span {
 }
 
 .yellow {
-    color: #b1951d;
+    color: #F2F27A;
 }
 
 .yellowbg {
-    background: #b1951d;
+    background: #F2F27A;
     color: #292b2e;
 }
 
